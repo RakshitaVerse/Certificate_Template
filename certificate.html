@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>certificate</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 15px;
+            font-family: 'Baskerville', 'Garamond', serif;
+            background-color: #f5f9fc;
+        }
+
+        .box-content {
+            background: linear-gradient(135deg, #fdfcfb, #e2d1c3, #f8e3c5);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px;
+            min-height: 600px;
+            border: 1px solid navy;
+            padding: 3vw;
+            text-align: center;
+        }
+
+        .title {
+            font-size: clamp(24px, 4vw, 42px);
+            letter-spacing: 0.3vw;
+            padding-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: clamp(18px, 2.5vw, 32px);
+            letter-spacing: 0.2vw;
+            margin-bottom: 10px;
+        }
+
+        .content {
+            font-size: clamp(14px, 1.5vw, 20px);
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+
+        .content-1 {
+            text-align: left;
+        }
+
+        .box {
+            width: 50%;
+            min-width: 120px;
+            font-size: clamp(12px, 1vw, 16px);
+            padding: 0.5em;
+            margin: 0.3em;
+            border: 1px solid #888;
+            border-radius: 4px;
+        }
+
+        .end,
+        .end-1 {
+            font-size: clamp(14px, 1.6vw, 20px);
+            margin-top: 20px;
+        }
+
+        .end {
+            text-align: left;
+        }
+
+        .end-1 {
+            text-align: right;
+        }
+
+        @media (max-width: 768px) {
+            .box-content {
+                padding: 4vw 3vw;
+            }
+
+            .box {
+                width: 90%;
+            }
+
+            .content-1 {
+                text-align: center;
+            }
+
+            .end,
+            .end-1 {
+                text-align: center;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box-content">
+        <div class="title">CERTIFICATE<i class="fa-solid fa-award"></i></div>
+        <div class="tagline">OF COMPLETION</div>
+
+        <div class="content">
+            <div class="content-1">
+                This is to proudly certify that <input type="name" placeholder="Full Name" class="box"> in recognition
+                of the
+                successful and dedicated completion of the course <input type="name" placeholder="Course Name"
+                    class="box">
+                Conducted by <input type="text" placeholder="Institution Name" class="box"> , this course was designed
+                to
+                provide comprehensive knowledge and hands-on skills in the area of <input type="text"
+                    placeholder="Subject or Skill Focus" class="box">.
+                <br><br>
+            </div>
+            <div class="content-2"> Through consistent effort, active participation, and commitment to learning,
+                <br><input type="text" placeholder="Participant's Name" class="box"> has met all the required criteria
+                and learning objectives
+                with dedication and commendable performance.
+            </div>
+        </div>
+
+        <div class="end">Authorized by: __________</div>
+        <div class="end-1">Designation:
+            __________</div>
+    </div>
+</body>
+
+</html>
